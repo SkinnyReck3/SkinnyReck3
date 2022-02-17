@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest sharedUserId="android.uid.intelligenceservice" versionCode="290201100" versionName="2.9.02.1" compileSdkVersion="30" compileSdkVersionCodename="11" package="com.samsung.android.rubin.app" platformBuildVersionCode="30" platformBuildVersionName="11">
+  <uses-sdk minSdkVersion="30" targetSdkVersion="30"/>
+  <uses-permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  <uses-permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission name="com.sec.spp.permission.TOKEN_25059dfec3f0a8ba2c46083cf1b6a800f6b25f3cc9ae91093f4bbf139a95073a08d34d5a59806e31f73d09e6c3b4a4d6f960ee22b8aa92e0ae0b4c0e2e811edf29b49aaf8d086a6e4423174619bb38c3b8fdb8cf2fe5175cf4c970d20f06ac6faf2e0526f7e6da89bd1b567cf7af0b135c930ee518e9d4f17628fac7ed20cb4d"/>
+  <permission label="Open Customization Service" name="com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING" protectionLevel="0x0" description="Allows an app to open Customization Service"/>
+  <uses-permission name="android.permission.GET_ACCOUNTS"/>
+  <uses-permission name="android.permission.BLUETOOTH"/>
+  <uses-permission name="android.permission.BLUETOOTH_ADMIN"/>
+  <uses-permission name="android.permission.CHANGE_WIFI_STATE"/>
+  <uses-permission name="android.permission.PROCESS_OUTGOING_CALLS"/>
+  <uses-permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+  <uses-permission name="android.permission.READ_SMS"/>
+  <uses-permission name="android.permission.READ_CALL_LOG"/>
+  <uses-permission name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+  <uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission name="android.permission.REAL_GET_TASKS"/>
+  <uses-permission name="android.permission.READ_CONTACTS"/>
+  <uses-permission name="android.permission.WAKE_LOCK"/>
+  <uses-permission name="android.permission.ACTIVITY_RECOGNITION"/>
+  <uses-permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
+  <uses-permission name="android.permission.PACKAGE_USAGE_STATS"/>
+  <uses-permission name="android.permission.SET_ACTIVITY_WATCHER"/>
+  <uses-permission name="android.permission.READ_CALENDAR"/>
+  <uses-permission name="android.permission.INTERNET"/>
+  <uses-permission name="com.sec.android.app.clockpackage.permission.READ_ALARM"/>
+  <uses-permission name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+  <uses-permission name="com.sec.android.app.sbrowser.permission.READ_MOST_VISITED_SITES"/>
+  <uses-permission name="com.sec.android.app.sbrowser.permission.QUICKACCESS"/>
+  <uses-permission name="com.samsung.android.bixby.agent.permission.READ_LANGUAGE"/>
+  <uses-permission name="com.msc.openprovider.OpenContentProvider.READ_CONTENT"/>
+  <uses-permission name="sec.permission.RADIO_BASED_LOCATION"/>
+  <uses-permission name="sec.permission.SAMSUNG_POSITIONING"/>
+  <uses-permission name="com.samsung.android.mobileservice.profile.READ"/>
+  <uses-permission name="com.samsung.cmh.SKIPHEAVY"/>
+  <uses-permission name="com.samsung.cmh.START"/>
+  <uses-permission name="com.samsung.cmh.data.READ"/>
+  <uses-permission name="com.samsung.cmh.data.WRITE"/>
+  <uses-permission name="com.samsung.android.providers.media.CMH"/>
+  <uses-permission name="com.samsung.android.providers.media.READ"/>
+  <uses-permission name="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER"/>
+  <uses-permission name="com.samsung.android.rubin.context.permission.READ_PERSONA_MANAGER"/>
+  <uses-permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+  <uses-permission name="com.samsung.android.oneconnect.permission.READ_CLOUD_LOCATION_PROVIDER"/>
+  <uses-permission name="com.samsung.android.bixby.bridge.provision.integrated.READ_PERMISSION"/>
+  <uses-permission name="com.samsung.android.rubin.lib.READ"/>
+  <uses-permission name="com.samsung.android.rubin.lib.WRITE"/>
+  <uses-permission name="com.samsung.android.launcher.permission.READ_SETTINGS"/>
+  <uses-permission name="com.samsung.accessory.permission.ACCESSORY_FRAMEWORK"/>
+  <uses-permission name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+  <uses-permission name="com.samsung.wmanager.ENABLE_NOTIFICATION"/>
+  <uses-permission name="com.samsung.WATCH_APP_TYPE.Companion"/>
+  <uses-permission name="com.samsung.android.gearoplugin.provider.Settings.READ"/>
+  <uses-permission name="com.samsung.android.hostmanager.permission.CONTROL_WEARABLE_STATUS"/>
+  <uses-permission name="com.samsung.android.hostmanager.permission.ACCESS_WEARABLE_STATE"/>
+  <uses-permission name="com.samsung.android.mas.setting.ContentProvider.READ_VALUE"/>
+  <uses-permission name="com.samsung.android.rubin.inferenceengine.datalogging.LOG_WRITE"/>
+  <uses-permission name="com.sec.android.diagmonagent.permission.DIAGMON"/>
+  <uses-permission name="com.sec.spp.permission.SEND"/>
+  <uses-permission name="com.wssnps.permission.COM_WSSNPS"/>
+  <uses-permission name="android.permission.GET_INTENT_SENDER_INTENT"/>
+  <permission label="Read context manager data" name="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" protectionLevel="0x0" description="This app can read your phone's context information for Personalization Service Client."/>
+  <permission label="Write context manager data" name="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" protectionLevel="0x0" description="This app can provide information about your phone's context to Rubin."/>
+  <permission label="Read preference manager data" name="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" protectionLevel="0x0" description="This app can read your personal preference information that is based on your phone usage."/>
+  <permission label="Write preference manager data" name="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" protectionLevel="0x0" description="This app can provide information about your personal preferences."/>
+  <permission label="Response kids mode data to rubin" name="com.samsung.android.rubin.profile.permission.REQUEST_KIDSMODE_INFO_RUBIN" protectionLevel="0x3"/>
+  <permission name="com.samsung.android.rubin.lib.READ" protectionLevel="0x3"/>
+  <permission name="com.samsung.android.rubin.lib.WRITE" protectionLevel="0x3"/>
+  <permission label="Rubin Debug Mode Access Permission" name="com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE" protectionLevel="0x2" description="This app can access the debug mode."/>
+  <uses-permission name="com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE"/>
+  <queries>
+    <package name="com.sec.android.app.shealth"/>
+  </queries>
+  <uses-permission name="com.google.android.c2dm.permission.RECEIVE"/>
+  <application label="Customization Service" icon="res/drawable-xxhdpi-v4/rubin_icon_lite.webp" name="com.samsung.android.rubin.app.RubinApplication" allowClearUserData="false" allowBackup="false" supportsRtl="true" extractNativeLibs="false" appComponentFactory="androidx.core.app.CoreComponentFactory">
+    <meta-data name="SamsungBasicInteraction" value="SEP10"/>
+    <meta-data name="com.samsung.android.multiuser.disable_sub_user" value="true"/>
+    <meta-data name="com.samsung.android.rubin.privacy_settings" value="true"/>
+    <meta-data name="com.samsung.android.rubin.unbundled_consent" value="true"/>
+    <activity theme="RubinTheme.Translucent" name="com.samsung.android.rubin.app.ui.update.UpdateActivity" exported="false" clearTaskOnLaunch="true" excludeFromRecents="true"/>
+    <activity theme="RubinTheme" label="Customization Service" name="com.samsung.android.rubin.app.ui.ics.CustomizationServiceActivity" launchMode="2" configChanges="0xda0"/>
+    <activity theme="RubinTheme" label="Customized apps" name="com.samsung.android.rubin.app.ui.ics.SupportedAppsActivity" launchMode="2" configChanges="0xda0" parentActivityName="com.samsung.android.rubin.app.ui.ics.CustomizationServiceActivity"/>
+    <activity theme="RubinTheme" label="Data management" name="com.samsung.android.rubin.app.ui.ics.SendSensitiveInformationActivity" launchMode="2" configChanges="0xda0" parentActivityName="com.samsung.android.rubin.app.ui.ics.CustomizationServiceActivity"/>
+    <activity theme="RubinTheme" name="com.samsung.android.rubin.app.ui.ics.ConnectedDevicesActivity" configChanges="0xda0"/>
+    <activity theme="RubinTheme" name="com.samsung.android.rubin.app.ui.ics.DeleteUsageInformationActivity" configChanges="0xda0"/>
+    <activity theme="RubinTheme" label="Download your data" name="com.samsung.android.rubin.app.ui.ics.DownloadPersonalDataActivity" configChanges="0xda0"/>
+    <activity theme="RubinTheme" label="Stop customizing all devices" name="com.samsung.android.rubin.app.ui.ics.WithdrawActivity" configChanges="0xda0"/>
+    <activity theme="RubinTheme.About" name="com.samsung.android.rubin.app.ui.ics.AboutActivity" configChanges="0xd20"/>
+    <activity theme="RubinTheme" label="Open source licenses" name="com.samsung.android.rubin.app.ui.ics.OpenSourceLicenseActivity"/>
+    <activity theme="RubinTheme.Translucent" label="Customization Service" name="com.samsung.android.rubin.app.ui.LaunchingActivity" excludeFromRecents="true" launchMode="3" configChanges="0xda0">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.CS_SETTINGS"/>
+        <category name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+      <intent-filter>
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLER"/>
+        <data scheme="rubin"/>
+        <data host="main"/>
+      </intent-filter>
+      <intent-filter>
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLER"/>
+        <data scheme="rubin"/>
+        <data host="portability"/>
+      </intent-filter>
+      <intent-filter>
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLER"/>
+        <data scheme="rubin"/>
+        <data host="erasure"/>
+      </intent-filter>
+    </activity>
+    <activity theme="RubinTheme" label="Privacy settings" name="com.samsung.android.rubin.app.ui.ics.PrivacyActivity" configChanges="0xda0">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.PRIVACY_SETTINGS"/>
+        <category name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity theme="RubinTheme.Translucent" label="Customization Service" name="com.samsung.android.rubin.app.ui.ChinaDialogActivity" exported="false" clearTaskOnLaunch="true" excludeFromRecents="true" configChanges="0xda0">
+      <intent-filter>
+        <action name="show_chn_dialog"/>
+        <category name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <receiver name="com.samsung.android.rubin.app.ui.update.UpdateRequestReceiver" enabled="true" exported="true">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.REQUEST_RUBIN_UPDATE"/>
+        <action name="com.samsung.android.rubin.START_RUBIN_UPDATE"/>
+      </intent-filter>
+    </receiver>
+    <provider name="com.samsung.android.rubin.app.provider.RubinStateProvider" exported="true" authorities="com.samsung.android.rubin.state"/>
+    <meta-data name="resource-map" resource="resource_map"/>
+    <meta-data name="com.samsung.android.bixby.pathRuleAppName" value="CustomizationService"/>
+    <meta-data name="feature_delete_hint" value="true"/>
+    <service name="com.samsung.android.rubin.controller.KeepAliveService" exported="false" stopWithTask="false"/>
+    <service name="com.samsung.android.rubin.serverinterface.batch.task.LogSendTask" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.samsung.android.rubin.serverinterface.batch.task.UpdatePolicyTask" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.samsung.android.rubin.serverinterface.batch.task.UpdateCollectionPolicyTask" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.samsung.android.rubin.serverinterface.batch.task.GetUserProfileTask" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.samsung.android.rubin.serverinterface.batch.task.UpdateOnlineShoppingListTask" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.samsung.android.rubin.serverinterface.batch.task.RestrictionStatusCheckTask" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <provider name="com.samsung.android.rubin.context.providers.DestinationProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.destination"/>
+    <provider name="com.samsung.android.rubin.context.providers.PlaceEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.placeevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.CommutingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.commutingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.DrivingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.drivingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.TripEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.tripevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.SleepEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.sleepevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.ExerciseEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.exerciseevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.RefreshingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.refreshingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.WorkingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.workingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.HomeInOutProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.presence"/>
+    <provider name="com.samsung.android.rubin.context.providers.StudyingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.studyingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.EatingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.eatingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.CookingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.cookingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.WatchingSportsEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.watchingsportsevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.GardeningEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.gardeningevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.CaringPetsEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.caringpetsevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.CaringChildrenEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.caringchildrenevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.PlayingGamesEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.playinggamesevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.RelaxingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.relaxingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.NightlifeEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.nightlifeevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.TpoContextProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.tpocontext"/>
+    <provider name="com.samsung.android.rubin.context.providers.OnlineShoppingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.onlineshoppingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.OfflineShoppingEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.shoppingevent"/>
+    <provider name="com.samsung.android.rubin.context.providers.SilentPlaceEventProvider" readPermission="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER" writePermission="com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.silentplaceevent"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PlacePatternProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.placepattern"/>
+    <provider name="com.samsung.android.rubin.persona.providers.CommutingPatternProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.commutingpattern"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredContactsProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferredcontacts"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredDeviceProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferreddevice"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredAppsProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferredapps"/>
+    <provider name="com.samsung.android.rubin.persona.providers.ShortTermPreferredProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.shorttermpreferred"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredSettingsProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferredsettings"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredPlacesProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferredplaces"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredWebsProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferredwebs"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredValuesProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferredvalues"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredMusicProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferredmusic"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredChargingProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferredcharging"/>
+    <provider name="com.samsung.android.rubin.persona.providers.PreferredOnlineShoppingProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.preferred_online_shopping"/>
+    <provider name="com.samsung.android.rubin.persona.providers.SleepPatternProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.sleeppattern"/>
+    <provider name="com.samsung.android.rubin.persona.providers.ExercisePatternProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.exercisepattern"/>
+    <provider name="com.samsung.android.rubin.persona.providers.CalendarEventProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.calendareventpattern"/>
+    <provider name="com.samsung.android.rubin.persona.providers.InterestKeywordProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.interest"/>
+    <provider name="com.samsung.android.rubin.persona.providers.UserProfileProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.userprofile"/>
+    <provider name="com.samsung.android.rubin.persona.providers.IotaProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.iota"/>
+    <provider name="com.samsung.android.rubin.upload.provider.SamsungAnalyticsProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.samsunganalytics"/>
+    <provider name="com.samsung.android.rubin.collection.CollectionProvider" exported="true" authorities="com.samsung.android.rubin.collection"/>
+    <provider name="com.samsung.android.rubin.update.provider.RubinUpdateProvider" exported="true" authorities="com.samsung.android.rubin.update"/>
+    <provider name="com.samsung.android.rubin.persona.providers.TpoPreferenceProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.tpopreference"/>
+    <provider name="com.samsung.android.rubin.poi.provider.PoiContextProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.context.poicontext"/>
+    <provider name="com.samsung.android.rubin.persona.providers.VisitedPlaceProvider" readPermission="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER" writePermission="com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER" exported="true" authorities="com.samsung.android.rubin.persona.visitedplace"/>
+    <receiver name="com.samsung.android.rubin.controller.KeepAliveService$AlarmBroadcastReceiver" exported="false">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.controller.keepaliveservice.ACTION_SERVICE_ALARM"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.serverinterface.batch.ReAgreementBatchJob$ReAgreementBroadcastReceiver" exported="false">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.REAGREEMENT_ALARM"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.serverinterface.batch.DownloadCheckBatchJob$DownloadCheckReceiver" exported="false">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.DOWNLOAD_CHECK_ALARM"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.controller.receivers.DownloadManagerReceiver" enabled="false" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.DOWNLOAD_COMPLETE"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.controller.receivers.WifiOptionChangedReceiver" enabled="false" exported="false">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.ACTION_WIFI_ONLY_CHANGED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.update.receivers.RubinUpdateReceiver" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.MY_PACKAGE_REPLACED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.saccount.receivers.SamsungAccountReceiver" permission="com.osp.app.signin.BROADCAST_PERMISSION">
+      <intent-filter>
+        <action name="com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"/>
+        <action name="com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"/>
+        <action name="com.osp.app.signin.action.EMAIL_VALIDATION_COMPLETED"/>
+        <action name="com.samsung.account.SA_CUSTOMIZED_SERVICE_COLLECTION"/>
+        <action name="com.samsung.android.unifiedprofile.privacy.ICS_DELETE_ALL_DATA"/>
+      </intent-filter>
+    </receiver>
+    <receiver label="BootReceiver" name="com.samsung.android.rubin.controller.receivers.BootCompletedReceiver" enabled="true" exported="false">
+      <intent-filter>
+        <action name="android.intent.action.BOOT_COMPLETED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.inferenceengine.datalogging.loggers.CarLogger$BluetoothEventReceiver" enabled="false" exported="true">
+      <intent-filter>
+        <action name="android.bluetooth.device.action.ACL_CONNECTED"/>
+        <action name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.inferenceengine.datalogging.loggers.BluetoothLogger$BluetoothEventReceiver" enabled="false" exported="true">
+      <intent-filter>
+        <action name="android.bluetooth.device.action.ACL_CONNECTED"/>
+        <action name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.inferenceengine.utils.GeofenceManager$GeofenceEventBroadcastReceiver" enabled="false" exported="false">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.inferenceengine.utils.PROXIMITY_CHANGED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.smartswitch.SmartSwitchBnRReceiver" permission="com.wssnps.permission.COM_WSSNPS" enabled="true" exported="true">
+      <intent-filter>
+        <action name="com.samsung.android.intent.action.REQUEST_BACKUP_RUNESTONE"/>
+        <action name="com.samsung.android.intent.action.REQUEST_RESTORE_RUNESTONE"/>
+      </intent-filter>
+    </receiver>
+    <service name="com.samsung.android.rubin.smartswitch.SmartSwitchBnRService" exported="false"/>
+    <service name="com.samsung.android.rubin.scloudsync.controller.SyncStartIntentService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.samsung.android.rubin.scloudsync.batcher.UserDataSyncBatcher" exported="false"/>
+    <service name="com.samsung.android.rubin.inferenceengine.contextanalytics.analyzers.preferredcontent.CalendarModelsDownloadService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.samsung.android.sdk.accessory.SAService"/>
+    <service name="com.samsung.android.sdk.accessory.SAJobService" permission="android.permission.BIND_JOB_SERVICE"/>
+    <receiver name="com.samsung.android.sdk.accessory.RegisterUponInstallReceiver">
+      <intent-filter>
+        <action name="com.samsung.accessory.action.REGISTER_AGENT"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver">
+      <intent-filter>
+        <action name="com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.inferenceengine.datalogging.loggers.ScreenLogger$ScreenLoggingBroadcastReceiver" permission="com.samsung.android.rubin.inferenceengine.datalogging.LOG_WRITE" enabled="false" exported="true">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.inferenceengine.datalogging.ACTION_SCREEN_LOGGING"/>
+        <action name="com.samsung.android.rubin.inferenceengine.datalogging.ACTION_START_FLUSH"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.samsung.android.rubin.inferenceengine.datalogging.loggers.AppInstallationLogger$AppInstallationBroadcastReceiver" enabled="false" exported="false">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_ADDED"/>
+        <action name="com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_REPLACED"/>
+        <action name="com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_FULLY_REMOVED"/>
+      </intent-filter>
+    </receiver>
+    <provider name="com.sec.android.diagmonagent.log.provider.DiagMonProvider" permission="com.sec.android.diagmonagent.permission.PROVIDER" exported="true" authorities="com.sec.android.log.795-395-509999"/>
+    <receiver name="com.samsung.android.rubin.scloudsync.smp.SCloudSmpEventReceiver" exported="false">
+      <intent-filter>
+        <action name="android.intent.action.MY_PACKAGE_REPLACED"/>
+        <action name="com.samsung.android.sdk.smp.pushRegistrationResult"/>
+        <action name="com.samsung.android.sdk.smp.smpInitializeResult"/>
+        <action name="com.samsung.android.sdk.smp.pushTokenChanged"/>
+      </intent-filter>
+    </receiver>
+    <service name="com.samsung.android.rubin.scloudsync.smp.SCloudSmpFcmService">
+      <intent-filter>
+        <action name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+    <receiver name="com.samsung.android.rubin.scloudsync.smp.SCloudSmpSppReceiver" permission="com.sec.spp.permission.SEND">
+      <intent-filter>
+        <action name="dbe5a8713a552d0f"/>
+        <action name="com.sec.spp.RegistrationChangedAction"/>
+      </intent-filter>
+    </receiver>
+    <service name="com.samsung.android.sdk.smp.SmpJobService" permission="android.permission.BIND_JOB_SERVICE"/>
+    <service name="com.samsung.android.sdk.smp.SmpService"/>
+    <receiver name="com.samsung.android.sdk.smp.SmpReceiver" exported="false"/>
+    <meta-data name="firebase_messaging_auto_init_enabled" value="false"/>
+    <meta-data name="firebase_analytics_collection_enabled" value="false"/>
+    <receiver name="com.samsung.android.rubin.pendingintent.PendingIntentReceiver" exported="false">
+      <intent-filter>
+        <action name="com.samsung.android.rubin.alarm.ACTION_PENDING_INTENT"/>
+        <action name="com.samsung.android.rubin.LAUNCH_GALAXY_APPS_UPDATE_PAGE"/>
+      </intent-filter>
+    </receiver>
+    <meta-data name="AccessoryServicesLocation" value="/res/xml/accessoryservices.xml"/>
+    <meta-data name="GearAppType" value="tpk"/>
+    <meta-data name="com.google.android.gms.ads.APPLICATION_ID" value="ca-app-pub-6716860697605913~5008429343"/>
+    <service name="com.google.firebase.messaging.FirebaseMessagingService" exported="false">
+      <intent-filter priority="-500">
+        <action name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+    <service name="com.google.firebase.components.ComponentDiscoveryService" exported="false" directBootAware="true">
+      <meta-data name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data name="com.google.firebase.components:com.google.firebase.iid.Registrar" value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+    </service>
+    <activity theme="Theme.Translucent" name="com.google.android.gms.ads.AdActivity" exported="false" configChanges="0xfb0"/>
+    <provider name="com.google.android.gms.ads.MobileAdsInitProvider" exported="false" authorities="com.samsung.android.rubin.app.mobileadsinitprovider" initOrder="100"/>
+    <receiver name="com.google.firebase.iid.FirebaseInstanceIdReceiver" permission="com.google.android.c2dm.permission.SEND" exported="true">
+      <intent-filter>
+        <action name="com.google.android.c2dm.intent.RECEIVE"/>
+      </intent-filter>
+    </receiver>
+    <provider name="com.google.firebase.provider.FirebaseInitProvider" exported="false" authorities="com.samsung.android.rubin.app.firebaseinitprovider" initOrder="100"/>
+    <activity theme="Theme.Translucent.NoTitleBar" name="com.google.android.gms.common.api.GoogleApiActivity" exported="false"/>
+    <meta-data name="com.google.android.gms.version" value="12451000"/>
+    <service name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" exported="false">
+      <meta-data name="backend:com.google.android.datatransport.cct.CctBackendFactory" value="cct"/>
+    </service>
+    <service name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" exported="false"/>
+    <service name="com.sec.android.diagmonagent.log.ged.scheduler.GEDJobService" permission="android.permission.BIND_JOB_SERVICE"/>
+    <meta-data name="SPDE.build.signature" value="65eb02cdc94b6a3cf47a616973101f56be169715/77012835/sepLite-release/Rubin-201100-2.9.02"/>
+    <meta-data name="SPDE.env.version" value="4.0.0/L30.1.18/0.9.22"/>
+  </application>
+</manifest>
